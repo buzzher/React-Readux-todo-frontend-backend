@@ -1,0 +1,11 @@
+{
+	"root": "build/",
+	"routes": {
+		"/**": "index.html"
+	},
+	"proxies": {
+		"/api": {
+			"origin": "https://young-bastion-13673.herokuapp.com"
+		}
+	}
+}
